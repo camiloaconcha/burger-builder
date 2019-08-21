@@ -1,5 +1,5 @@
 //Functional component,
-import Aux from '../../hoc/Aux';
+import Aux from '../../hoc/Auxiliar';
 import React from 'react';
 import classes from './Layout.css';
 //From the HoC
