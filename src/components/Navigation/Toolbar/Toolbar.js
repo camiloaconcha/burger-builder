@@ -1,14 +1,14 @@
 import React from 'react';
+import classes from './Toolbar.css';
+import Logo from './../../Logo/Logo';
 
 const Toolbar = () => {
     return (
         <div>
-            <header>
+            <header className={classes.Toolbar}>
                 <div>MENU</div>
-                <div>LOGO</div>
-                <nav>
-                    ...
-                </nav>
+                <Logo/>
+               <nav>...</nav>
             </header>
         </div>
     );
